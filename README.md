@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# Todo App
+
+
+<img src="./public/image.png" alt="todo list image"/>
+
+This is a simple to-do list website built using Next.js, Shadcn, Tailwind CSS, and Zustand. It allows users to create, read, update, and delete tasks, as well as mark tasks as complete using checkboxes.Additionally, it supports local storage for saving tasks.
+
+## Features
+
+- **Create Task**: Users can add new tasks to the list by typing in the input field and clicking the "Add Task" button.
+- **Read Task**: The list displays all tasks with their respective checkboxes for completion status.
+- **Update Task**: Users can edit existing tasks by clicking the "Edit" button, modifying the text, and then clicking "Save".
+- **Delete Task**: Tasks can be removed from the list by clicking the "Delete" button.
+- **Checkbox for Completion**: Each task has a checkbox that users can check to mark the task as complete.
+- **Local Storage**: Tasks are saved to local storage, allowing users to persist their tasks even after closing the browser.
+
+## Technologies Used
+
+- **Next.js**: React framework for building server-side rendered and statically generated applications.
+- **Shadcn**: A minimalistic and lightweight CSS framework for styling.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Zustand**: A state management library for React applications, providing a simple and straightforward API for managing global state.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/Sayakdutt/Todo-Zustand
+   cd Todo-Zustand
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the development server:
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the todoList website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
